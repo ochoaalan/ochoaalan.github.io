@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://kit.fontawesome.com/f88d2fa247.js" crossorigin="anonymous"></script>
+  <title>Portfolio</title>
+
+</head>
+<body>
+
+    <nav id="navbar">
+      <a class="nav-link" href="#projects">Projects</a>
+      <a class="nav-link" href="#contact">contact</a>
+    </nav>
+
+  <header id="welcome-section">
+    <div class="">
+      <h1>Alan Ochoa</h1>
+      <p class="title-lead">Fullstack Developer</p>
+    </div>
+
+    <div class="middle">
+      <div class="mouse">
+      </div>
+    </div>
+  </header>
+
+  <section id="projects">
+    <h2 class="projects-title">These are some of my projects</h2>
+    <div class="container">
+
+      <div class="card">
+        <a class="card-image" href="https://peaceful-earth-37979.herokuapp.com/" style="background-image: url('img/node-to-do-list.PNG')"></a>
+        <div class="card-text">
+          <h1>To Do List</h1>
+          <p class="card-description">This app lets you manage your time by creating new notes or delete them once they are done<span id="dots">...</span><span id="more">, also you can create completely new lists. All your data will be persistent.</span><button  class="button-readMore" onclick="myFunction()" id="myBtn">Read more</button></p>
+          <p class="card-tech">Uses: HTML5 CSS3 JavaScript Node.js MongoDB</p>
+        </div>
+        <div class="card-actions">
+          <div class="action">
+            <a href="https://github.com/ochoaalan/todolist-node" class="btn-light">Code<i class="fab fa-github button-icon"></i></a>
+          </div>
+          <div class="action">
+            <a href="https://peaceful-earth-37979.herokuapp.com/" class="btn">Live<i class="fas fa-play-circle button-icon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a class="card-image" href="https://landing-page-bank.herokuapp.com/" style="background-image: url('img/landing-page-bank.png')"></a>
+        <div class="card-text">
+          <h1>Bank Landing Page</h1>
+          <p class="card-description">Landing page of a bank where users view optimal layouts for the site depending on their device's screen size.</p>
+          <p class="card-tech">Uses: HTML5 CSS3 JavaScript Sass</p>
+        </div>
+        <div class="card-actions">
+          <div class="action">
+            <a href="https://github.com/ochoaalan/landing-page-bank" class="btn-light">Code<i class="fab fa-github button-icon"></i></a>
+          </div>
+          <div class="action">
+            <a href="https://landing-page-bank.herokuapp.com/" class="btn">Live<i class="fas fa-play-circle button-icon"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <a class="card-image" href="https://react-task-tracker-app.herokuapp.com/" style="background-image: url('img/react-task-tracker.png')"></a>
+        <div class="card-text">
+          <h1>Task Tracker</h1>
+          <p class="card-description">A task manager that helps you plan tasks made with React.</p>
+          <p class="card-tech">Uses: HTML5 CSS3 React</p>
+        </div>
+        <div class="card-actions">
+          <div class="action">
+            <a href="https://github.com/ochoaalan/task-tracker-react" class="btn-light">Code<i class="fab fa-github button-icon"></i></a>
+          </div>
+          <div class="action">
+            <a href="https://react-task-tracker-app.herokuapp.com/" class="btn">Live<i class="fas fa-play-circle button-icon"></i></a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Get In Touch</h2>
+    <ul class="social-ul">
+      <li><a id="profile-link" href="https://github.com/ochoaalan" target="_blank"><i class="fab fa-github"></i></a></li>
+      <li><a id="profile-link" href="#" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>Made with &#10084;&#65039; by Alan</p>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
